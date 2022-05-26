@@ -1,0 +1,35 @@
+p {
+  margin: 0;
+}
+
+.Right {
+  margin-left: 220px;
+}
+
+.Main {
+  padding: 4% 8% 2% 4%;
+  background-color: #f5f6f9;
+}
+
+@media (max-width: 920px) {
+  .Main {
+    margin: 2%;
+    background-color: #f5f6f9;
+  }
+}
+
+@media (max-width: 600px) {
+  .Right {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .Right {
+    margin-left: 0;
+  }
+
+  .Main {
+    padding-right: 2%;
+  }
+}

@@ -1,0 +1,22 @@
+
+.Section {
+    background-color: white;
+  }
+  
+  .Heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 1% 2%;
+  }
+  
+  .Heading h5 {
+    /* font-size: 16px; */
+    margin: 0;
+  }
+  
+  .Heading i {
+    margin-right: 5%;
+  }
